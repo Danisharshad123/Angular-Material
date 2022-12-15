@@ -1,0 +1,87 @@
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-info my-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Mobile-Brands</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <form class="d-flex">
+              <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Add Brands</button>
+            </form>
+          </div>
+      </nav>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Mobile Name</th>
+            <th scope="col">Mobile Model</th>
+            <th scope="col">Mobile Make</th>
+            <th scope="col">Mobile Price</th>
+          </tr>
+        </thead>
+      
+        <tbody>
+          <tr >
+            <th scope="row"></th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="button" data-bs-toggle="modal" data-bs-target="#exampleModal"value="Edit" class="btn btn-outline-info mx-2">
+                <input type="button" value="Delete"  class="btn btn-outline-danger">
+            </td>
+          </tr>
+          <tr>
+         
+            <td>
+  
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+<!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Brands Registration</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form >
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Mobile Name</label>
+                  <input type="mobilename" class="form-control" id="exampleInputEmail1"placeholder="Enter mobile name">
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mobile Model</label>
+                    <input type="mobilemodel" class="form-control"  id="exampleInputEmail1" placeholder="Enter mobile model">
+                 
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mobile Make</label>
+                    <input type="mobilemake" class="form-control"  id="exampleInputEmail1"placeholder="Enter mobile make">
+                   
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Mobile Price</label>
+                    <input type="mobileprice" class="form-control"  id="exampleInputEmail1"placeholder="Enter mobile price">
+                  
+                  </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-info" >Done</button>
+          <button type="button" class="btn btn-outline-info" >Update</button>
+
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
